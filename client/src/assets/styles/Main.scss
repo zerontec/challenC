@@ -1,0 +1,57 @@
+$background-color: #dddde8ec;
+$text-color: #020202;
+$color-div:#fff;
+$background-color-nav:red;
+
+@import "bootstrap/scss/bootstrap.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+//center a div 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-top: 60px;
+  margin-top: 60px;
+  background-color:$color-div;
+  color:$text-color;
+  padding-bottom: 90px;
+
+}
+.center-nav-form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+//background color to body 
+body {
+  background-color: $background-color;
+}
+h2{
+    margin-left: 15px;
+}
+
+.bg-red{
+    background-color: $background-color-nav;
+}
+
+
+.containerP {
+  background-color: $color-div;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $text-color;
+  padding-top: 60px;
+  margin-top: 60px;
+}
