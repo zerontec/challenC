@@ -17,6 +17,8 @@ const Navbar = () => {
     setText("");
   }
 
+  
+
   return (
     <>
       <nav class="navbar fixed-top bg-red">

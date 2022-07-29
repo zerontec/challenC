@@ -3,7 +3,7 @@ import { GET_TEXT } from "../actions/actions"
 
 export const initialState={
 
-    textos: '',
+    texts: [],
     
 }
 
